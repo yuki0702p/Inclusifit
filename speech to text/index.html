@@ -1,0 +1,23 @@
+<!-- IT IS NOT RECOMMENDED TO CALL THE API DIRECTLY FROM THE CLIENT, YOUR API KEY WILL BE EXPOSED -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <hr />
+    <label for="name">message:</label>
+    <input
+      id="user-input"
+      name="user-input"
+      type="text"
+      placeholder="Enter your response..."
+    />
+    <button id="start-btn" type="button">start</button>
+    <button id="stop-btn" type="button">stop</button>
+    <button id="send" type="button">Send</button>
+    <h6 id="instructions">instructions</h6>
+    <ul id="root"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
